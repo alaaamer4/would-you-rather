@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  background: #f5f9ff;
+  width: 50vw;
+
+  color: #354265;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex img {
+  width: 80px;
+  margin: 0.5rem 1rem;
+}
+.flex h2 {
+  margin: 0 0.5rem;
+}
+.btn {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 0.6rem 3.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  background: #24578d;
+  color: #fff;
+  border: none;
+  transition: all 400ms ease-in-out;
+  margin: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+.btn:hover {
+  cursor: pointer;
+  background: #3178c6;
+}
+.wait {
+  margin: 2rem;
+}
+h2 {
+  text-transform: capitalize;
+  color: #354265;
+}

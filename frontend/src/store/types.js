@@ -1,0 +1,14 @@
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+export const USER_LOADED = "USER_LOADED";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_ERROR = "LOGIN_ERROR";
+export const LOGOUT = "LOGOUT";
+export const LOADING = "LOADING";
+export const GET_USERS = "GET_USERS";
+export const GET_UNANSWERED = "GET_UNANSWERED";
+export const GET_ANSWERED = "GET_ANSWERED";
+export const REMOVE_UNANSWERED = "REMOVE_UNANSWERED";
+export const NEW_QUESTION = "NEW_QUESTION";
+export const NEW_ANSWER = "NEW_ANSWER";

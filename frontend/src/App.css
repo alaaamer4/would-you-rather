@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home-page {
+  min-height: calc(100vh - 74px);
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.6;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+
+  background: linear-gradient(#426fb66c 0%, #426fb633 50%, #426fb65d 100%),
+    url("./assets/home.svg") center center no-repeat;
+}
+.home-page a {
+  color: #fff;
+  font-weight: 600;
+}
+.home-page h1 {
+  color: #2f2e41;
+}
+.login-page {
+  height: calc(100vh - 74px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen {
+  height: 100%;
+  width: 50%;
+  background: url("./assets/login.svg") right center no-repeat;
+  background-size: contain;
+}
+.register-page {
+  height: calc(100vh - 74px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-screen {
+  height: 100%;
+  width: 50%;
+  background: url("./assets/register.svg") left center no-repeat;
+  background-size: contain;
+}
+.register-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-input {
+  display: inline-block;
+  margin-bottom: 1rem;
+
+  width: 22rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: 1px solid #777;
+  outline: none;
+  font-size: 1rem;
+}
+.register-input {
+  display: inline-block;
+  margin-bottom: 1rem;
+
+  width: 22rem;
+  padding: 1rem 2.4rem;
+  border-radius: 2rem;
+  border: 1px solid #777;
+  outline: none;
+  font-size: 1rem;
+}
+.login-input:active,
+.login-input:focus,
+.register-input:active,
+.register-input:focus {
+  border: 1px solid #426eb6;
+}
+.login-btn {
+  display: inline-block;
+
+  padding: 0.6rem 3.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  background: #24578d;
+  color: #fff;
+  border: none;
+  transition: all 400ms ease-in-out;
+}
+.login-inputs a {
+  margin-bottom: 0.6rem;
+}
+.register-btn {
+  display: inline-block;
+  padding: 0.6rem 3.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  font-weight: 600;
+  background: #24578d;
+  color: #fff;
+  border: none;
+  transition: all 400ms ease-in-out;
+}
+.login-btn:hover,
+.register-btn:hover,
+.block-btn:hover {
+  cursor: pointer;
+  background: #3178c6;
+}
+
+.new-question-page {
+  height: calc(100vh-74px);
+  width: 90vw;
+  margin: auto;
+  background: url("./assets/new-question.svg") right center no-repeat;
+  background-size: contain;
+}
+.new-question {
+  width: 40%;
+  margin: 4rem auto;
+  border: 1px solid #3178c6;
+}
+.new-question h1 {
+  text-transform: uppercase;
+  border-bottom: 1px solid #3178c6;
+  text-align: center;
+  padding: 1rem;
+  background-color: #3178c6;
+  color: #fff;
+  margin: 0;
+}
+.question-form {
+  padding: 1rem;
+}
+.question-form div {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.input-field {
+  display: block;
+  margin-bottom: 1rem;
+
+  width: 90%;
+  margin: 1.2rem auto;
+  padding: 0.7rem 2.4rem;
+  border-radius: 5px;
+  border: 1px solid #777;
+  outline: none;
+  font-size: 1rem;
+}
+.block-btn {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 0.6rem 3.5rem;
+  border-radius: 5px;
+  font-weight: 600;
+  background: #24578d;
+  color: #fff;
+  border: none;
+  transition: all 400ms ease-in-out;
+}
+.not-found {
+  width: 100vw;
+  height: calc(100vh - 74px);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("./assets/not-found.svg");
+}
+.close-not-found {
+  display: block;
+  top: 20px;
+  left: 15px;
+  width: 80px;
+  height: 73px;
+  background-image: url("./assets/left-arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50px;
+  font-size: 0;
+  border: none;
+  outline: none;
+}
