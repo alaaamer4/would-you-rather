@@ -4,7 +4,6 @@
   "description": "would you rather game",
   "main": "app.js",
   "scripts": {
-    "node": "node app.js",
     "server": "node app.js --ignore client",
     "client": "npm start  --prefix frontend",
     "start": "concurrently \"npm run server\" \"npm run client\""
