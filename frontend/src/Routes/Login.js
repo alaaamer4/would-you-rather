@@ -38,7 +38,7 @@ const Login = () => {
           type="password"
           placeholder="Password"
         />
-        <Link> Don't have an account? Register now </Link>
+        <Link to="/register"> Don't have an account? Register now </Link>
 
         <button type="submit" className="login-btn">
           Login
